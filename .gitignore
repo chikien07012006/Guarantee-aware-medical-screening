@@ -1,0 +1,53 @@
+# Python environments and interpreter artifacts
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors and operating system files
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*~
+
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Data: raw images, downloads, and generated split manifests can be large/sensitive
+data/
+!data/.gitkeep
+datasets/
+downloads/
+
+# Experiment artifacts
+outputs/
+runs/
+logs/
+checkpoints/
+wandb/
+mlruns/
+lightning_logs/
+*.ckpt
+*.pth
+*.pt
+*.onnx
+
+# Generated visual/report artifacts
+reports/*.pdf
+reports/figures/
